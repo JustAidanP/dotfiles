@@ -1,8 +1,6 @@
 " vim-plug
 call plug#begin('~/.local/share/nvim/plugged')
 
-Plug 'joshdick/onedark.vim'
-
 Plug 'morhetz/gruvbox'
 
 " Git change in the gutter (left)
@@ -12,9 +10,7 @@ call plug#end()
 
 
 " Colourscheme
-" -- https://github.com/fratajczak/one-monokai-vim
 syntax on
-" colorscheme one-monokai " Sets the colour scheme
 colorscheme gruvbox
 set termguicolors " Enables 24bit true colour i.e. Allows colours to work in the terminal
 
